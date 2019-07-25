@@ -1,0 +1,63 @@
+
+:root{
+--color-main: #f04;
+}
+html{scroll-behavior: smooth;}
+.navbar{ position: sticky; top:0px; z-index: 999;}
+.active {color:blue !important; border-bottom: 2px solid blue;}
+#home{    background: rgba(134, 133, 133, 0.15) url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png) no-repeat fixed;
+background-size: cover;}
+.navbar-brand{text-transform: uppercase;}
+.btns li{color: #fff;
+text-shadow: 0 1px 0 rgba(0,0,0,.15);
+line-height: 32px;
+display: inline-block;
+border-radius: 4px;
+background:  var(--color-main);
+padding: 5px 10px;
+margin:0px 5px;
+}
+.container-fluid{padding:5vw 10vw;}
+#home,#about,#projects,#skills,#contact{
+color : #fff;   
+}
+
+#home .btns li{padding:1.2% 3%;}
+#home .list-inline {width:100%;}
+#skills .fa{font-size: 4em;color:#ccc;}
+#skills .fa:hover{color: #fff;}
+
+#contact img{
+    max-width: 100%;
+    border-radius: 50%;    
+    border: 3px solid green;
+    padding: 2px;
+    border-color: blue aqua green teal;
+    box-shadow: 0px 0px 10px 2px #999;
+}
+#contact .btnlike{
+    color: #fff;
+text-shadow: 0 1px 0 rgba(0,0,0,.15);
+line-height: 32px;
+display: inline-block;
+border-radius: 4px;
+background:  var(--color-main);
+padding: 5px 10px;
+margin:5%;
+}
+#contact .btns li{
+    padding: 5px 15px;
+    font-size: x-large;
+    border-radius: 50%;
+    
+}
+#contact .btns li a{
+    color:#fff;
+}
+#projects img{max-width: 100%;}
+.footer{background-color: #ddd;}
+.form-control{background-color: #fafafa;}
+.form-control:focus{
+    border-color: none !important;
+    box-shadow: none;
+}
